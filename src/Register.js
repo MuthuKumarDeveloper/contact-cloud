@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Register() {
   return (
-    <div className="container-fluid col-lg-6 col-md-6 col-8">
+    <div className="container-fluid col-lg-6 col-md-8 col-10">
       <form className="form  my-5 abc1">
         <h4 className="heading">Register Your Account</h4>
         <input

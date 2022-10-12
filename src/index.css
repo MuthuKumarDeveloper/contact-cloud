@@ -2,23 +2,25 @@ body {
     background-image: linear-gradient(to right, rgb(73, 131, 240), rgb(250, 139, 244));
 }
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-
-}
-
 .card1 {
-    width: 29%;
-    height: 50%;
-    margin: 10px 30px;
+   
     font-size: 16px;
     background-color: mediumslateblue;
     color: white;
-    padding: 15px 5px;
     border-radius: 12px;
+    padding-bottom: 10px;
 
+
+}
+
+
+@media screen and (max-width:767px){
+    .cs{
+        width: 500px;
+        margin: 0px auto;
+      
+    }
+  
 
 }
 
@@ -36,8 +38,34 @@ body {
 span {
     float: left;
     margin-bottom: 10px;
+    
 
 }
+.Alter{
+    clear: both;
+    margin: 0px 10%;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+}
+.edit{
+    padding: 10px 30px;
+    margin: 0px auto;
+    background-color:  rgb(103, 150, 236);
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+}
+.delete{
+    padding: 10px 30px;
+    margin: 0px auto;
+    background-color:  rgb(245, 146, 240);
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    color: white;
+}
+
 
 .abc {
     height: 350px;
@@ -90,3 +118,5 @@ span {
     border: none;
     background-image: linear-gradient(to right, rgb(103, 150, 236), rgb(250, 139, 244));
 }
+
+
